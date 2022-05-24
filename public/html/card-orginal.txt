@@ -1,0 +1,29 @@
+<div id="post-{{id}}" class="card bg-special p-3">
+    <div class="p-3">
+        <small class="text-primary">{{username}}</small>
+    </div>
+    <div class="w-100 justify-content-center d-flex">
+        <div class="img-width">
+            <img class="card-img-top" src="{{thumbnail}}" alt="No Image" height="250px">
+        </div>
+    </div>
+
+    <div class="card-body ">
+        <h5 class="card-title text-white">{{title}}</h5>
+        <div class="text-overflow">
+            <small class="card-text text-muted ">{{description}}</small>
+
+        </div>
+    </div>
+    <div class="card-footer bg-dark">
+        <div class="d-flex">
+        </div>
+        <small class="text-white">{{created}}</small>
+
+        <a href="/getPost" class="anchor-buttons">Post Details</a>
+        <small class="text-primary text-end">Comments </small>
+
+
+
+    </div>
+</div>

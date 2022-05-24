@@ -1,0 +1,25 @@
+
+.author{
+    color: #7a7a7a;
+}
+
+.mini-title{
+    color: #00a7e1;
+    padding: 4px;
+}
+
+.post{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    padding: 8px 8px;
+}
+
+
+@media screen and (max-width: 800px){
+    
+}
+
+@media screen and (max-width: 600px){
+    
+}

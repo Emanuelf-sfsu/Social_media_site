@@ -1,0 +1,42 @@
+<div class="container d-flex justify-content-center">
+    <div id="post-{{id}}" class="card individual">
+    <div class="p-3">
+        <small class="text-primary">{{currentPost.username}}</small>
+    </div>
+    <div class="w-100 justify-content-center d-flex">
+        <div class="img-width">
+            <img class="card-img-top max-height" src="/{{currentPost.photopath}}" alt="No Image" >
+        </div>
+    </div>
+
+    <div class="card-body ">
+        <h5 class="card-title">{{currentPost.title}}</h5>
+        <div class="text-overflow">
+            <small class="card-text text-muted ">{{currentPost.description}}</small>
+
+        </div>
+    </div>
+    <div class="card-footer  bg-dark w-100">
+        <div class="d-flex justify-content-end">
+        <small class="text-primary text-end">Comments </small>
+
+        </div>
+    </div>
+</div>
+</div>
+
+
+<style>
+    .text-overflow {
+        height: 9vh;
+
+    }
+
+    .individual{
+        width: 75%
+    }
+
+    .max-height{
+        max-height: 450px;
+    }
+</style>

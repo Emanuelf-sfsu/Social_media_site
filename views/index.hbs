@@ -1,0 +1,31 @@
+
+<div class="w-100 ">
+{{>bg-red}}
+ <div class=" page-title ml-5">
+                <span class="logo display-4 text-white mr-5">Trending</span>
+        </div>
+<div class=" d-flex justify-content-center my-5 flex-wrap">
+       
+
+
+        <div class="w-75  ">
+                {{>bg-green}}
+                <div id="main-content">
+                        {{#each results}}
+                        {{> card this}}
+                        {{/each}}
+                </div>
+        </div>
+        <div class="one"></div>
+
+
+</div>
+</div>
+<style>
+        .one {
+                height: 40vh;
+                width: 700px;
+                background-image: url({{thumbnail}});
+        }
+
+</style>

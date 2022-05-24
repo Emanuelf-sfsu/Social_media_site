@@ -1,0 +1,41 @@
+<div>
+    <nav class="navbar navbar-dark offset w-100 d-flex ">
+        <a class="navbar-brand logo text-white" href="/"><span class="logo">LandScape</span></a>
+    {{> searchbar}}
+
+        <div>
+
+            {{#if logged}}
+            <span class="text-white">{{username}}</span>
+            <div class="btn-group mr-2" role="group">
+                <a href="/postimage"><button style="width:auto;" class="btn btn-primary">Post</button></a>
+            </div>
+            <div class="btn-group mr-2" role="group">
+                <a id="logout-btn"><button style="width:auto;" class="btn btn-outline-primary">Login Out</button></a>
+            </div>
+
+            {{else}}
+            <div class="btn-group mr-2" role="group">
+                <a href="/Login">
+                <button class="btn btn-outline-primary">Login</button>
+                </a>
+            </div>
+            <div class="btn-group mr-2" role="group">
+                <a href="/Registration">
+                   <button class="btn btn-primary">Sign-Up</button>
+                </a>
+            </div>
+            
+            {{/if}}
+
+
+
+
+    </nav>
+        
+
+</div>
+
+
+
+<span class="p-5"></span>

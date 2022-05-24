@@ -1,0 +1,35 @@
+.offset{
+    background-color: #003459;
+}
+
+.logo{
+    font-family: 'Staatliches', cursive; 
+    font-size: 1em;
+}
+
+.search{
+
+    box-sizing: border-box;
+    border: 1px solid #00a7e1;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #00171f;
+    color: #00a7e1;
+    background-image: url('public/img/search.svg');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 5px 1vw 5px 10px;
+}
+
+/*Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {  
+
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+    .search{
+        width:300px;
+    }
+    
+ }
